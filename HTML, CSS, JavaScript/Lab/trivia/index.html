@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener("DOMContentLoaded", ()=>{
+                const firstAnswer = document.getElementById("first")
+                const secondAnswer = document.getElementById("second")
+                const thirdAnswer = document.getElementById("third")
+                const feedBack = document.getElementById("feedback")
+
+                const answerField = document.getElementById("field")
+                const feedBack2 = document.getElementById("feedback2")
+
+                firstAnswer.addEventListener("click", ()=>{
+                    firstAnswer.style.backgroundColor = "red"
+                    feedBack.textContent = "Incorrect"
+                    secondAnswer.style.backgroundColor = "#d9edff"
+                    thirdAnswer.style.backgroundColor = "#d9edff"
+                })
+                secondAnswer.addEventListener("click", ()=>{
+                    secondAnswer.style.backgroundColor = "green"
+                    feedBack.textContent = "Correct!"
+                    firstAnswer.style.backgroundColor = "#d9edff"
+                    thirdAnswer.style.backgroundColor = "#d9edff"
+                })
+                thirdAnswer.addEventListener("click", ()=>{
+                    thirdAnswer.style.backgroundColor = "red"
+                    feedBack.textContent = "Incorrect"
+                    firstAnswer.style.backgroundColor = "#d9edff"
+                    secondAnswer.style.backgroundColor = "#d9edff"
+                })
+
+                document.getElementById("check").addEventListener("click", ()=>{
+                    if (answerField.value == "javascript"){
+                        answerField.style.backgroundColor = "green"
+                        feedBack2.textContent = "Correct!"
+                    }else{
+                        answerField.style.backgroundColor = "red"
+                        feedBack2.textContent = "Incorrect"
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Which keyword is used to declare a variable that cannot be re-assigned in JavaScript?</h3>
+                <button id="first">var</button>
+                <button id="second">const</button>
+                <button id="third">let</button>
+                <p id="feedback"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What scripting language is commonly used for web development? (in lower case)</h3>
+                <input id="field" type="text" placeholder="Answer">
+                <button id="check">Check Answer</button>
+                <p id="feedback2"></p>
+            </div>
+        </div>
+    </body>
+</html>

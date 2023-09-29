@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+
+How do you know?: faster then sort 3 in sorted50000. It only needs to go 1 time through to relise that the numbers are sorted.
+
+sort2 uses: Merge sort
+
+How do you know?: fastes in random10000 since its log.
+
+
+sort3 uses: selection sort
+
+How do you know?: slower then sort 1 in sorted50000. It needs to keep going through the list each time in search for a smaller number.

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav>
+            <img src="images/logo.PNG" alt="Choki's logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <section class="firstsec">
+            <div class="fakeline up"></div>
+            <img class="pp" src="images/choki.png" alt="Choki's profile picture">
+            <div>
+                <h1 class="leftspace">Some of my small <Strong>Projects</Strong></h1>
+                <h3 class="frontend">Front-End Developer</h3>
+            </div>
+        </section>
+
+        <h2 class="frontend full fix">Password-Generator</h2>
+        <div class="portfolio-item-individual">
+            <div >
+                <a target="_blank" href="https://github.com/RealChoki/My-Projects/tree/main/JavaScript/Password%20Generator"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a target="_blank" href="https://choki-password-generator.netlify.app/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>This is a web application that generates a secure and random password with just the click of a button. It utilizes the power of vanilla JavaScript along with some well-crafted HTML and CSS skills to create an intuitive and user-friendly interface.</p>
+            <p>It takes advantage of JavaScript's randomization functions to create a unique combination of characters, including uppercase letters, lowercase letters, numbers, and special symbols.</p>
+            <p>The HTML structure is clean and semantic, providing a solid foundation for the application. CSS is used to style the elements in an appealing manner, making the interface visually pleasing and easy to navigate.</p>
+            <p>In addition, this web application offers a convenient feature that allows users to copy the generated password with a simple click. Which transfers the generated password to their clipboard.</p>
+        </div>
+
+        <h2 class="frontend full fix">Tindog</h2>
+        <div class="portfolio-item-individual">
+            <div >
+                <a target="_blank" href="https://github.com/RealChoki/My-Projects/tree/main/JavaScript/Tindog"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a target="_blank" href="https://choki-tindog.netlify.app/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>Tindog is an exciting web-based application that offers a unique twist to the popular dating app Tinder, but tailored specifically for dog lovers. This project utilizes HTML, CSS, and JavaScript to create a user-friendly interface where users can interact with adorable dogs and find their perfect furry companions. The application employs classes to handle multiple dog profiles and provides instant feedback to users based on their preferences.</p>
+            <p>The application showcases a series of dog profiles, each containing relevant information such as name, age, breed, and a captivating photo. Dogs are displayed one at a time, and the next profile appears after the user interacts with the current one.</p>
+            <p>Users have the option to "like" or "dislike" each dog profile they encounter. The Web app gives the user immediate feedback on their choice, by showcasing a popup stating if the profile got like or disliked</p>
+        </div>
+
+        <h2 class="frontend full fix">Movie-Watchlist</h2>
+        <div class="portfolio-item-individual">
+            <div >
+                <a target="_blank" href="https://github.com/RealChoki/My-Projects/tree/main/API/Movie%20Watchlist"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a target="_blank" href="https://choki-movie-watchlist.netlify.app"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>The goal of this project is to create a website that allows users to search for movies, view information about them, and add them to their personal watchlist. The website is built using HTML, CSS, JavaScript, and an API for retrieving movie data. Additionally, local storage will be utilized to store the user's watchlist, allowing them to add and remove movies as desired.</p>
+            <p>The website provides a search bar where users can enter the name of a movie they want to find. JavaScript will handle the search functionality by making API requests to retrieve relevant movie data based on the user's input.</p>
+            <p>Users have the ability to add movies to their watchlist by clicking on a "Add to Watchlist" button or icon associated with each movie. The selected movies will be stored in the browser's local storage, allowing users to access their watchlist even if they navigate away from the website or close the browser.</p>
+            <p>The website includes a dedicated section or page where users can view their saved watchlist. This section will retrieve the movie data from local storage and display it in a user-friendly format. Users will also be able to remove movies from their watchlist with a single click, updating the local storage accordingly.</p>
+        </div>
+        <footer class="footer black">
+            <a id="white" href="mailto:rafaatchoki2003@gmail.com" class="footer__link">rafaatchoki2003@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a id="white2" class="social-list__link" href="https://github.com/RealChoki">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

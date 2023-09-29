@@ -1,0 +1,8 @@
+1. I will first calculate the average of energy (0.66), valence (0.48), and danceability (0.71). The music that the user listened to had a medium level of positivity.
+At the same time, it was above average in energy, which means the person was not listening to a lot of chill music such as lo-fi. The danceability level is pretty high,
+which shows us that the music's BPM was on the higher side. This would cause the heart to pump and the body to move. Their audio aura was mostly positive and energetic.
+
+2. People listen to music based on their situation in life. For example, a person might have gone through a breakup, leading them to listen to low-energy/valence music
+for a month or two. This can cause inaccurate aura calculation since that music was just a phase. I am also not a fan of the danceability value since a lot of music
+genres can lead people with different tastes to dance. We should make the attributes of music more distinct. Right now, we have energy, valence, and danceability,
+which are all close to each other. We should also look at different attributes such as the BPM of the music.

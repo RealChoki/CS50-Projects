@@ -1,0 +1,18 @@
+Times:
+
+10 simulations: 0m0.030s
+100 simulations: 0m0.031s
+1000 simulations: 0m0.043s
+10000 simulations: 0m0.100s
+100000 simulations: 0m0.735s
+1000000 simulations: 0m7.045s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
+comparing million to 10. Portugal had a 14% chance of winning but with only 10 simulations it was not even in the list. Switzerland had 20% chance and that got halfed with one million simulations. Denmark went down from 10% to 3% and so on.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+With 10000 im always very close to one secound. So most of the time i would be at 0.95 but some times i would get to 1s which causes a fee. My choice would be 1000 since the top 5-6 are very close to 10000 and i would never get a fee since im at 0.035s.
+
