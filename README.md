@@ -28,8 +28,7 @@ The CS50 course is divided into segments:
 
 ## Final Project
 
-CS50 culminates in a final project, where you can apply what you've learned by creating your own software project.
-[My Final Project](https://github.com/RealChoki/Personal-Projects/tree/main/Chess-Clock)
+CS50 culminates in a final project, where you can apply what you've learned by creating your own software project [My Final Project](https://github.com/RealChoki/Personal-Projects/tree/main/Chess-Clock)
 
 ## Usage
 
