@@ -1,4 +1,4 @@
-# CS50: Introduction to Computer Science
+# CS50: Introduction to Computer Science Projects
 
 Welcome to my CS50 repository! This repository contains my completed problem sets from Harvard University's CS50 course. Whether you're a concentrator or just exploring computer science, CS50 offers an exciting journey into the world of programming and problem-solving.
 
