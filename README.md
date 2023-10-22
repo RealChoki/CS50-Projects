@@ -40,4 +40,6 @@ To explore the course materials and learn more, you can visit the [CS50 website]
 
 CS50 is not just about learning to program; it's about developing a problem-solving mindset and gaining a deep understanding of computer science concepts. Whether you're a future programmer or simply curious about the world of technology, CS50 is a fantastic starting point on your journey.
 
+![image](https://github.com/RealChoki/CS50-Projects/assets/123271772/4b93019d-e560-4eb5-b3d1-5533db3f47ca)
+
 <3
